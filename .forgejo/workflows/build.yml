@@ -48,7 +48,7 @@ jobs:
         RUN wget https://git.shork.ch/oci-images/out-of-your-element/raw/branch/main/entrypoint.sh
         COPY --chown=node:node . .
         RUN apk add --no-cache python3 make build-base \
-          && npm install .
+          && npm ci
         
         FROM node:alpine AS runner
         COPY --from=builder --chmod=0755 /usr/src/app/entrypoint.sh /entrypoint.sh
