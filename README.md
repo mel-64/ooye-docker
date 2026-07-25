@@ -1,5 +1,7 @@
 # OOYE OCI image
 
+![workflow-badge](https://git.shork.ch/oci-images/out-of-your-element/badges/workflows/build.yml/badge.svg)
+
 This repo contains buildscripts and instructions to setup and run ooye inside an oci-compatible runtime like Podman or Docker.
 
 ## Setup
