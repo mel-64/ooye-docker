@@ -12,7 +12,7 @@ This repo contains buildscripts and instructions to setup and run ooye inside an
 - Main repo: [git.shork.ch/oci-images/out-of-your-element](https://git.shork.ch/oci-images/out-of-your-element)
 - Mirrors:
     - Codeberg: [melthecat/ooye-oci](https://codeberg.org/melthecat/ooye-oci)
-    - Github: [melthecat/ooye-docker](https://github.com/melthecat/ooye-docker)
+    - Github: [mel-64/ooye-docker](https://github.com/mel-64/ooye-docker)
 
 ## Other info
 - [ooye project source](https://gitdab.com/cadence/out-of-your-element)
