@@ -4,7 +4,6 @@ services:
     environment:
       OOYE_DATADIR: /data
     volumes:
-      - ./registration.yaml:/usr/src/app/registration.yaml
       - ./ooye-data:/data
     ports:
       - 127.0.0.1:6693:6693
